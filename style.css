@@ -28,6 +28,11 @@ align-items: center;
     margin-bottom: 70px;
 }
 
+.valueContainer{
+  display: flex;
+  gap: 20px;
+}
+
 input{
     width: 100%;
 }

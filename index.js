@@ -8,7 +8,7 @@ let timeInput = document.getElementById('timeinput');
 let distanceInput = document.getElementById('distanceinput');
 
 function setSpeed(){
-    speedValue.innerHTML = distanceValue.innerHTML/timeValue.innerHTML;
+    speedValue.innerHTML = (distanceValue.innerHTML/timeValue.innerHTML);
     speedInput.value = speedValue.innerHTML;
 }
 function setTime(){
