@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-        <!-- <h1>PaceCalc</h1>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML 5 Boilerplate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Pace Calcuator</h1>
+    <!-- <h1>PaceCalc</h1>
         <label for="pace">Pace</label>
         <input
             id="paceinput" 
@@ -19,42 +22,27 @@
             min:="0"
             max="15"/>
         <h2 id="pacevalue">0</h2> -->
-
-        <label for="speed">Speed</label>
-        <input 
-            id="speedinput"
-            type="range" 
-            id="speed"
-            name="speed"
-            min:="0"
-            max="15"/>
-        <h2 id="speedvalue">0</h2>
-
-        <label for="time">Time</label>
-        <input 
-            id="timeinput"
-            type="range" 
-            id="time"
-            name="time"
-            min:="0"
-            max="15"
-            value="10"
-            />
-        <h2 id="timevalue">10</h2>
-
-        <label for="distance">Distance</label>
-        <input 
-            id="distanceinput"        
-            type="range" 
-            id="distance"
-            name="distance"
-            min:="0"
-            max="100"
-            value="10"/>
-            
-        <h2 id="distancevalue">10</h2>
-
+    <div class="valContainer">
+      <label for="speed">Speed</label>
+      <input id="speedinput" type="range" id="speed" name="speed" min:="0" max="15" />
+      <h2 id="speedvalue">0</h2>
     </div>
-    <script src="index.js"></script>
-  </body>
+
+    <div class="valContainer">
+      <label for="time">Time</label>
+      <input id="timeinput" type="range" id="time" name="time" min:="0" max="15" value="10" />
+      <h2 id="timevalue">10</h2>
+    </div>
+
+    <div class="valContainer">
+      <label for="distance">Distance</label>
+      <input id="distanceinput" type="range" id="distance" name="distance" min:="0" max="100" value="10" />
+      <h2 id="distancevalue">10</h2>
+    </div>
+
+
+  </div>
+  <script src="index.js"></script>
+</body>
+
 </html>
